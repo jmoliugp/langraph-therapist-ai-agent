@@ -10,3 +10,7 @@ dependencies = [
     "langgraph>=1.0.6",
     "python-dotenv>=1.2.1",
 ]
+
+[tool.ruff.lint]
+# Disables the rule that deletes no longer used imports
+ignore = ["F401"]
